@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>gb_vghealth</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>GPKG</type>
+                <path>gb_vghealth.gpkg</path>
+            </datasource>
+            <layername>gb_vghealth</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>vghealth</var>
+                <var>oaid</var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>gb_vghealth</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>queen</weights_type>
+                        <order>1</order>
+                        <inc_lower_orders>false</inc_lower_orders>
+                        <path>gb_vghealth.gal</path>
+                        <id_variable>oaid</id_variable>
+                        <symmetry>symmetric</symmetry>
+                        <num_observations>171372</num_observations>
+                        <min_neighbors>0</min_neighbors>
+                        <max_neighbors>39</max_neighbors>
+                        <mean_neighbors>5.9915622155311254</mean_neighbors>
+                        <median_neighbors>6</median_neighbors>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
